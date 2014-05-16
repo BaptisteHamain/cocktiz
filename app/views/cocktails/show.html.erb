@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @cocktail.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @cocktail.body %>
+</p>
+
+<p>
+  <strong>Picture url:</strong>
+  <%= @cocktail.picture_url %>
+</p>
+
+<%= link_to 'Edit', edit_cocktail_path(@cocktail) %> |
+<%= link_to 'Back', cocktails_path %>
